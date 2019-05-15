@@ -48,7 +48,7 @@
 								<exclude>**/principal/*</exclude>
 								<exclude>**/test/*</exclude>
 							</excludes>
-							<dataFile>${project.basedir}/../target/jacoco.exec</dataFile>
+							<dataFile>target/jacoco.exec</dataFile>
 							<outputDirectory>target/jacoco-ut</outputDirectory>
 						</configuration>
 					</execution>
