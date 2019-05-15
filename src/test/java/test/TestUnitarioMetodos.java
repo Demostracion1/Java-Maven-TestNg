@@ -118,7 +118,7 @@
 		public void divisionParaZero() {
 			LOGGER.info("prueba division valor divisor cero revisando excepcion");
 			Division division = new Division();
-			division.division(1, 1);
+			division.division(1, 0);
 		}
 
 		
