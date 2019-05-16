@@ -42,31 +42,31 @@
 		
 		
 		
-//		/**
-//		 * Este metodo realiza la prueba sobre el metodo suma, que se encuentra en la clase Adicion.java
-//		 * Primero instancia un objeto de tipo Adicion y usa este objeto para hacer uso del metodo suma
-//		 * La anotacion @Test indica que este metodo es un metodo para pruebas
-//		 */
-//		@Test
-//		public void adicionTest() {
-//			LOGGER.info("prueba adicion");
-//			Adicion adicion = new Adicion();
-//			Assert.assertEquals(3, adicion.suma(1, 2));
-//		}
-//
-//		
-//		
-//		/**
-//		 * Este metodo realiza la prueba sobre el metodo resta, que se encuentra en la clase Extraccion.java
-//		 * Primero instancia un objeto de tipo Extraccion y usa este objeto para hacer uso del metodo resta
-//		 * La anotacion @Test indica que este metodo es un metodo para pruebas
-//		 */
-//		@Test
-//		public void extraccionTest() {
-//			LOGGER.info("prueba extraccion");
-//			Extraccion extraccion = new Extraccion();
-//			Assert.assertEquals(0, extraccion.resta(2, 2));
-//		}
+		/**
+		 * Este metodo realiza la prueba sobre el metodo suma, que se encuentra en la clase Adicion.java
+		 * Primero instancia un objeto de tipo Adicion y usa este objeto para hacer uso del metodo suma
+		 * La anotacion @Test indica que este metodo es un metodo para pruebas
+		 */
+		@Test
+		public void adicionTest() {
+			LOGGER.info("prueba adicion");
+			Adicion adicion = new Adicion();
+			Assert.assertEquals(3, adicion.suma(1, 2));
+		}
+
+		
+		
+		/**
+		 * Este metodo realiza la prueba sobre el metodo resta, que se encuentra en la clase Extraccion.java
+		 * Primero instancia un objeto de tipo Extraccion y usa este objeto para hacer uso del metodo resta
+		 * La anotacion @Test indica que este metodo es un metodo para pruebas
+		 */
+		@Test
+		public void extraccionTest() {
+			LOGGER.info("prueba extraccion");
+			Extraccion extraccion = new Extraccion();
+			Assert.assertEquals(0, extraccion.resta(2, 2));
+		}
 
 		
 		
