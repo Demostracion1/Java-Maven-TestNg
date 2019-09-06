@@ -51,7 +51,7 @@
 		public void adicionTest() {
 			LOGGER.info("prueba adicion");
 			Adicion adicion = new Adicion();
-			Assert.assertEquals(4, adicion.suma(1, 2));
+			Assert.assertEquals(3, adicion.suma(1, 2));
 		}
 
 		
