@@ -75,29 +75,29 @@
 		 * Primero instancia un objeto de tipo Multiplicacion y usa este objeto para hacer uso del metodo multiplicacion
 		 * La anotacion @Test indica que este metodo es un metodo para pruebas
 		 */
-		@Test
-		public void multiplicacionTest() {
-			LOGGER.info("prueba multiplicacion");
-			Multiplicacion multiplicacion = new Multiplicacion();
-			Assert.assertEquals(4, multiplicacion.multiplicacion(2, 2));
-		}
-
-		
-		
-		/**
-		 * Este metodo realiza la prueba sobre el metodo division con valores validos, 
-		 * este metodo se encuentra en la clase Division.java
-		 * Primero instancia un objeto de tipo Division y usa este objeto para hacer uso del 
-		 * metodo division
-		 * La anotacion @Test indica que este metodo es un metodo para pruebas
-		 */
-		@Test
-		public void divisionValoresValidosTest() {
-			LOGGER.info("prueba division valores validos");
-			Division division = new Division();
-			Assert.assertEquals(2, division.division(4, 2));
-
-		}
+//		@Test
+//		public void multiplicacionTest() {
+//			LOGGER.info("prueba multiplicacion");
+//			Multiplicacion multiplicacion = new Multiplicacion();
+//			Assert.assertEquals(4, multiplicacion.multiplicacion(2, 2));
+//		}
+//
+//		
+//		
+//		/**
+//		 * Este metodo realiza la prueba sobre el metodo division con valores validos, 
+//		 * este metodo se encuentra en la clase Division.java
+//		 * Primero instancia un objeto de tipo Division y usa este objeto para hacer uso del 
+//		 * metodo division
+//		 * La anotacion @Test indica que este metodo es un metodo para pruebas
+//		 */
+//		@Test
+//		public void divisionValoresValidosTest() {
+//			LOGGER.info("prueba division valores validos");
+//			Division division = new Division();
+//			Assert.assertEquals(2, division.division(4, 2));
+//
+//		}
 
 		
 		
