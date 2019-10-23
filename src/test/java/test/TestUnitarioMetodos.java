@@ -79,7 +79,7 @@
 		public void multiplicacionTest() {
 			LOGGER.info("prueba multiplicacion");
 			Multiplicacion multiplicacion = new Multiplicacion();
-			Assert.assertEquals(5, multiplicacion.multiplicacion(2, 2));
+			Assert.assertEquals(6, multiplicacion.multiplicacion(2, 2));
 		}
 
 		
