@@ -22,3 +22,27 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /target/
+test-output/Default suite/Default test.html
+test-output/Default suite/Default test.xml
+test-output/Default suite/testng-failed.xml
+test-output/emailable-report.html
+test-output/index.html
+test-output/junitreports/TEST-test.TestUnitarioMetodos.xml
+test-output/old/Default suite/classes.html
+test-output/old/Default suite/methods-alphabetical.html
+test-output/old/Default suite/methods.html
+test-output/old/Default suite/toc.html
+test-output/old/index.html
+test-output/testng-failed.xml
+test-output/testng-results.xml
+test-output/Default suite/Default test.html
+test-output/Default suite/Default test.xml
+test-output/emailable-report.html
+test-output/index.html
+test-output/junitreports/TEST-test.TestUnitarioMetodos.xml
+test-output/old/Default suite/classes.html
+test-output/old/Default suite/methods-alphabetical.html
+test-output/old/Default suite/methods.html
+test-output/old/Default suite/toc.html
+test-output/old/index.html
+test-output/testng-results.xml
